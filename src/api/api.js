@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://127.0.0.1:4050"; // Cambia si usas Azure u otro host
+const API_BASE_URL = "https://todo-app-284883-cvate2b8fkhhbtdv.centralus-01.azurewebsites.net/"; // Cambia si usas Azure u otro host
 
 const authHeaders = () => {
   const token = localStorage.getItem("token");
