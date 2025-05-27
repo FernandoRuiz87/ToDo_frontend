@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://black-sand-0f2f48d10.6.azurestaticapps.net"; // Aqui va la url de la api
+const API_BASE_URL = "todo-app-284883-cvate2b8fkhhbtdv.centralus-01.azurewebsites.net"; // Aqui va la url de la api
 
 const authHeaders = () => {
   const token = localStorage.getItem("token");
